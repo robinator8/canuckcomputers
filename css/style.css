@@ -997,13 +997,19 @@ animation-delay: .8s;
   vertical-align: middle;
 }
 #pricing-section .single-price-table strong.color1 {
-  background: #d6973d;
+  /* background: #d6973d; */
+  /* background: #eda821; */
+  background: #FFA400;
 }
 #pricing-section .single-price-table strong.color2 {
-  background: #375099;
+  /* background: #375099; */
+  /* background: #14aa50; */
+  background: #00D225;
 }
 #pricing-section .single-price-table strong.color3 {
-  background: #179680;
+  /* background: #179680; */
+  /* background: #3d77e7; */
+  background: #089DDD;
 }
 #pricing-section .single-price-table ul li {
   line-height: 45px;
