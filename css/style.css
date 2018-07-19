@@ -1,12 +1,12 @@
 /* CSS Document */
 
-/* 
-    Created on : 1/15/2017. 
+/*
+    Created on : 1/15/2017.
     Theme Name : BizPro.
     Description: BizPro- Responsive html5 template.
     Version    : 1.1.
     Author     : @SRThemes.
-   
+
 */
 
 /* ------------------------------------------ */
@@ -61,7 +61,7 @@
 @import url('../vendor/monthly-master/css/monthly.css');
 
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -90,15 +90,15 @@
   bottom:0px;
   width: 6px;
   height: 5px;
-  background:#e04f5d; 
+  background:#e04f5d;
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
- 
+
 #preloader_1 span:nth-child(2){
 left:11px;
 animation-delay: .2s;
- 
+
 }
 #preloader_1 span:nth-child(3){
 left:22px;
@@ -120,7 +120,7 @@ animation-delay: .8s;
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Click To Top
@@ -151,7 +151,7 @@ animation-delay: .8s;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -251,7 +251,7 @@ animation-delay: .8s;
   margin: 60px auto 0 auto;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
-.theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
+.theme-main-menu .navbar-nav>li>a:hover,
 #service-section .single-service-content:hover .icon-heading .icon,
 #service-section .single-service-content:hover .icon-heading h6 a,
 #pricing-section .single-price-table a:hover,#blog-section .single-news-item .img a,
@@ -268,7 +268,7 @@ animation-delay: .8s;
 .blog-details-post-wrapper .post-share-area .share li a.active {
   color:#d73e4d;
 }
-.p-color-bg,.theme-title h2:before,#about-us .single-about-content:hover .icon,
+.p-color-bg,.theme-title h2:before,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
@@ -285,7 +285,7 @@ animation-delay: .8s;
   border-color:#d73e4d;
   border-style: solid;
 }
-/*** 
+/***
 
 ====================================================================
   Theme Header
@@ -300,13 +300,20 @@ animation-delay: .8s;
   z-index: 999;
   padding-top: 20px;
 }
+.theme-main-header .logo{
+  width: 70%;
+  max-width: 402px;
+}
+.theme-main-header .logo>img{
+  width: 100%;
+}
 .theme-main-menu .navbar-nav>li>a {
   text-transform: uppercase;
   color:#fff;
   font-weight: 700;
   background: transparent;
   padding: 9px 15px;
-} 
+}
 .theme-main-menu .navbar-nav>li:last-child>a {
   padding-right: 0;
 }
@@ -375,7 +382,7 @@ animation-delay: .8s;
   cursor: pointer;
   line-height: 44px;
 }
-/*** 
+/***
 
 ====================================================================
   Sticky Menu
@@ -402,7 +409,7 @@ animation-delay: .8s;
 .theme-main-header.fixed .logo {
   margin-top: -8px;
 }
-/*** 
+/***
 
 ====================================================================
   Theme Main Banner
@@ -425,7 +432,7 @@ animation-delay: .8s;
   border-width: 1px;
   text-transform: uppercase;
 }
-/*** 
+/***
 
 ====================================================================
   About section
@@ -457,11 +464,7 @@ animation-delay: .8s;
   border-width: 1px;
   margin-top:22px;
 }
-#about-us .single-about-content a.more:hover,
-#about-us .single-about-content:hover .icon {
-  color:#fff;
-}
-/*** 
+/***
 
 ====================================================================
   Service section
@@ -530,7 +533,7 @@ animation-delay: .8s;
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
 }
-/*** 
+/***
 
 ====================================================================
   Project section
@@ -554,7 +557,7 @@ animation-delay: .8s;
   border-color: transparent;
   margin: 15px 10px 0 10px;
   padding-bottom: 10px;
-} 
+}
 #project-section .project-gallery .grid-item {
   width: 33.33333333333%;
   padding: 0 15px;
@@ -662,7 +665,7 @@ animation-delay: .8s;
           transform: translate3D(0,0,0);
 }
 
-/*** 
+/***
 
 ====================================================================
   Page Middle Banner
@@ -692,7 +695,7 @@ animation-delay: .8s;
   font-weight: 700;
   border-width:1px;
 }
-/*** 
+/***
 
 ====================================================================
   Team Section
@@ -866,7 +869,7 @@ animation-delay: .8s;
           transform: translate3D(0,0,0);
 }
 
-/*** 
+/***
 
 ====================================================================
   Skill Section
@@ -924,7 +927,7 @@ animation-delay: .8s;
   padding: 0;
   float:none;
 }
-/*** 
+/***
 
 ====================================================================
   Our Client
@@ -956,7 +959,7 @@ animation-delay: .8s;
   border: 1px solid#9d9f9f;
   margin: 0 5px;
 }
-/*** 
+/***
 
 ====================================================================
   Pricing Section
@@ -1017,7 +1020,7 @@ animation-delay: .8s;
 #pricing-section .single-price-table a:hover {
   background: #fff;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Section
@@ -1080,7 +1083,7 @@ animation-delay: .8s;
 #blog-section .single-news-item .post p a {
   color: #292929;
 }
-/*** 
+/***
 
 ====================================================================
   Partner Section
@@ -1100,7 +1103,7 @@ animation-delay: .8s;
 #partner-section .item img {
   margin: 0 auto;
 }
-/*** 
+/***
 
 ====================================================================
   Contact Section
@@ -1121,6 +1124,9 @@ animation-delay: .8s;
 #contact-section .contact-address-content .left-side ul li h6 {
   font-size: 14px;
   margin-bottom: 8px;
+}
+#contact-section .contact-address-content .left-side ul li p{
+  color: #6f6f6f
 }
 #contact-section .contact-address-content .left-side ul li .icon {
   width: 60px;
@@ -1180,7 +1186,7 @@ animation-delay: .8s;
 #contact-section .send-message form button:hover {
   background: #fff;
 }
-/*** 
+/***
 
 ====================================================================
   Conatct Form Activation
@@ -1245,7 +1251,7 @@ animation-delay: .8s;
 .form-validation textarea.error {
   border:1px solid #f03838 !important;
 }
-/*** 
+/***
 
 ====================================================================
   Footer
@@ -1336,10 +1342,10 @@ footer p {
   font-size: 15px;
   margin-top: 50px;
 }
-/*** 
+/***
 
 ====================================================================
-  Inner Page Banner 
+  Inner Page Banner
 ====================================================================
 
  ***/
@@ -1367,7 +1373,7 @@ footer p {
 .inner-page-banner .opacity ul li a {
   color:#fff;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Aside bar
@@ -1466,7 +1472,7 @@ footer p {
   border: 1px solid #dfdfdf;
   border-radius: 5px;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Details Post
