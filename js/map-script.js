@@ -5,7 +5,7 @@ function goMap () {
   if ($('#map').length) {
         // Styles a map in night mode.
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.925372, lng: -74.276544},
+          center: {lat: 41.745772, lng: -77.337696},
           zoom: 12,
           scrollwheel: false,
           styles: [ {
@@ -176,15 +176,15 @@ function goMap () {
           ]
         });
 
-		// To add the marker to the map 
+		// To add the marker to the map
 		  var image = 'images/logo/map.png';
 		  var beachMarker = new google.maps.Marker({
-		    position: {lat: 40.925372, lng: -74.276544},
+		    position: {lat: 41.745772, lng: -77.337696},
 		    map: map,
 		    icon: image,
-		    title:"BipPro Office!",
+		    title:"Canuck Computers",
 		    infoWindow: {
-	            content: '<h6>Bizpro office</h6> <p>Gazipur,Dhaka</p>'
+	            content: '<h6>Canuck Computers</h6> <p>Wellsboro, PA</p>'
 	          }
 		  });
   };
